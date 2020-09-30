@@ -1,0 +1,10 @@
+# Rust
+debug/
+target/
+
+Cargo.lock
+
+**/*.rs.bk
+
+# OSx
+.DS_STORE
