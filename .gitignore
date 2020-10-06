@@ -8,3 +8,6 @@ Cargo.lock
 
 # OSx
 .DS_STORE
+
+# Jetbrains
+.idea/
