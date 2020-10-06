@@ -22,7 +22,9 @@ jobs:
           components: rustfmt
           override: true
     - name: Format Check
-      run: rustfmt
+      run: cargo fmt -- --check
+    - name: Dependencies
+      run: sudo apt-get update -y -qq && sudo apt-get install libsdl2-dev
     - name: Build
       run: cargo build --verbose
     - name: Run tests
